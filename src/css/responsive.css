@@ -1,4 +1,4 @@
- /* Extra small devices (phones, 600px and down) */
+ /* Extra small devices (phones, 48px and down) */
  @media only screen and (min-width: 480px) {
      .container {
          width: 44rem;
@@ -9,6 +9,16 @@
  @media only screen and (min-width: 600px) {
      .container {
          width: 56rem;
+     }
+
+     .header__title {
+         font-size: 3.2rem;
+         max-width: 44rem;
+     }
+
+     .header__caption {
+         font-size: 1.6rem;
+         max-width: 50rem;
      }
  }
 

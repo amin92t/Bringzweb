@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="14.001" viewBox="0 0 16 14.001">
+  <g id="eva:arrow-back-fill" transform="translate(20 19) rotate(180)">
+    <path id="Vector" d="M15,6H3.14l3.63-4.36A1,1,0,0,0,5.23.361l-5,6a1.19,1.19,0,0,0-.09.15.127.127,0,0,1-.07.13.961.961,0,0,0,0,.72.127.127,0,0,0,.07.13,1.19,1.19,0,0,0,.09.15l5,6a1,1,0,1,0,1.54-1.28L3.14,8H15a1,1,0,1,0,0-2Z" transform="translate(4 4.999)" fill="#fff"/>
+  </g>
+</svg>
