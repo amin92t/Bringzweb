@@ -34,6 +34,14 @@
      .container {
          width: 96rem;
      }
+
+     .favorite__title-box {
+         flex-basis: 60%;
+     }
+
+     .wrapper-rating {
+         flex-basis: 40%;
+     }
  }
 
  /* Extra large devices (large laptops and desktops, 1200px and up) */

@@ -192,3 +192,90 @@ Navigation
 .header__buttons-span:hover {
     margin-right: 1.2rem;
 }
+
+/* ===================== 
+favorites section
+====================== */
+
+.favorites {
+    margin-top: -6rem;
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    padding: 2rem 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.favorites__title {
+    font-family: var(--poppins-bold);
+    font-size: 2.4rem;
+    color: var(--white-color);
+    line-height: 1.6;
+    max-width: 30rem;
+    margin-bottom: 2rem;
+}
+
+.wrapper-rating {
+    display: flex;
+    align-items: center;
+}
+
+.favorites__rating {
+    flex-grow: 1;
+    margin-right: 2rem;
+}
+
+
+.favorites__rating-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+
+.favorites__rating-number {
+    color: var(--white-color);
+    margin-left: 2rem;
+}
+
+.favorite__rating-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favorite__rating-caption-sp {
+    color: var(--white-color);
+}
+
+.users-love {
+    flex-grow: 1;
+    margin-left: 2rem;
+}
+
+.users-love__rating-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.users-love__rating-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.users-love__rating-number {
+    color: var(--white-color);
+    margin-left: 2rem;
+}
+
+.users-love__rating-caption-sp {
+    color: var(--white-color);
+}
