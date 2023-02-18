@@ -42,6 +42,25 @@
      .wrapper-rating {
          flex-basis: 40%;
      }
+
+     .about {
+         justify-content: space-evenly;
+     }
+
+     .about__banner {
+         width: 40rem;
+         height: 40rem;
+         flex-grow: 0;
+     }
+
+     .about__content {
+         flex-grow: 0;
+     }
+
+     .about__caption {
+         margin-bottom: 2rem;
+     }
+
  }
 
  /* Extra large devices (large laptops and desktops, 1200px and up) */
