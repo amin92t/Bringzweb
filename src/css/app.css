@@ -359,17 +359,17 @@ about-us
 
 
 /* ===================== 
-Services
+features
 ====================== */
 
-.services {
+.features {
     margin: 5rem -1rem 5rem -1rem;
     display: flex;
     flex-wrap: wrap;
 
 }
 
-.service {
+.feature {
     display: flex;
     align-items: center;
     width: 30rem;
@@ -379,7 +379,7 @@ Services
     margin-left: 1rem;
 }
 
-.service__icon {
+.feature__icon {
     background-color: var(--primary-color);
     height: 5rem;
     width: 6rem;
@@ -391,17 +391,17 @@ Services
     margin-right: 2rem;
 }
 
-.service__content {
+.feature__content {
     align-self: flex-start;
 }
 
-.service__title {
+.feature__title {
     font-family: var(--poppins-SemiBold);
     font-size: 1.8rem;
     margin-bottom: 2rem;
 }
 
-.service__caption {
+.feature__caption {
     font-family: var(--poppins-Regular);
     font-size: 1.6rem;
     line-height: 1.4;
