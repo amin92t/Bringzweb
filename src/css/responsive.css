@@ -44,11 +44,11 @@
      }
 
      .about {
-         justify-content: space-evenly;
+         justify-content: space-between;
      }
 
      .about__banner {
-         width: 40rem;
+         width: 50rem;
          height: 40rem;
          flex-grow: 0;
      }
