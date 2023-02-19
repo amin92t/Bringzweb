@@ -407,3 +407,105 @@ features
     line-height: 1.4;
     max-width: 24rem;
 }
+
+/* ===================== 
+Services
+====================== */
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.services__top-title {
+    font-family: var(--poppins-SemiBold);
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+    position: relative;
+}
+
+.services__top-title::after {
+    content: " ";
+    width: 10rem;
+    height: 0.1rem;
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: -12px;
+    left: -1.5rem;
+}
+
+.services__title {
+    font-family: var(--poppins-bold);
+    font-size: 2.8rem;
+    max-width: 40rem;
+    margin: 3rem auto 5rem auto;
+    line-height: 1.4;
+}
+
+.services__caption {
+    font-family: var(--poppins-Regular);
+    font-size: 1.4rem;
+    line-height: 1.6;
+    max-width: 78rem;
+    margin: 0 auto 5rem auto;
+}
+
+/* Slider */
+
+.slider {
+    margin-bottom: 5rem;
+}
+
+.slider__card {
+    border-radius: 1rem;
+    border: 1px solid var(--gray-color);
+    padding: 3rem 1rem;
+}
+
+.slider__card--active {
+    background-color: var(--primary-color);
+}
+
+.slider__image {
+    margin: 4rem 0 2rem 4rem;
+    display: flex;
+    align-self: flex-end;
+}
+
+.slider__card--active>.slider__card-title,
+.slider__card--active>.slider__card-caption,
+.slider__card--active>.slider__card-btn>.slider__card-link {
+    color: var(--white-color);
+}
+
+.slider__card-title {
+    text-align: left;
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+    font-family: var(--poppins-SemiBold);
+    font-size: 1.8rem;
+}
+
+.slider__card-caption {
+    text-align: left;
+    margin-left: 4rem;
+    font-family: var(--poppins-Regular);
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    max-width: 28rem;
+}
+
+.slider__card-btn {
+    margin-bottom: 4rem;
+    text-align: left;
+    margin-left: 4rem;
+}
+
+.slider__card-icon {
+    margin-left: 2rem;
+}
