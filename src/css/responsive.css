@@ -27,6 +27,7 @@
      .container {
          width: 72rem;
      }
+
  }
 
  /* Large devices (laptops/desktops, 992px and up) */
@@ -59,6 +60,11 @@
 
      .about__caption {
          margin-bottom: 2rem;
+     }
+
+     .price-content {
+         margin-top: -10rem;
+         align-items: flex-start;
      }
 
  }
