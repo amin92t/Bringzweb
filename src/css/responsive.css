@@ -67,6 +67,26 @@
          align-items: flex-start;
      }
 
+     .contact {
+         justify-content: space-between;
+     }
+
+     .contact__banner {
+         width: 50rem;
+         height: 40rem;
+         flex-grow: 0;
+     }
+
+     .contact__content {
+         flex-grow: 0;
+     }
+
+     .price-content {
+         margin-top: -10rem;
+         align-items: flex-start;
+     }
+
+
  }
 
  /* Extra large devices (large laptops and desktops, 1200px and up) */

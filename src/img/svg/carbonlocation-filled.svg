@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.143" height="18" viewBox="0 0 14.143 18">
+  <g id="carbon:location-filled" transform="translate(-1.688)">
+    <path id="Vector" d="M7.071,0A7.08,7.08,0,0,0,0,7.071a7,7,0,0,0,1.425,4.243s.193.254.224.291L7.071,18,12.5,11.6c.028-.034.222-.287.222-.287v0a7,7,0,0,0,1.424-4.241A7.08,7.08,0,0,0,7.071,0Zm0,9.643a2.575,2.575,0,1,1,1.817-.754,2.571,2.571,0,0,1-1.817.754Z" transform="translate(1.687)" fill="#fff"/>
+    <path id="Vector-2" data-name="Vector" d="M4.5,2.25A2.25,2.25,0,1,1,2.25,0,2.25,2.25,0,0,1,4.5,2.25Z" transform="translate(6.75 5.063)" fill="none"/>
+  </g>
+</svg>
