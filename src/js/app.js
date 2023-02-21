@@ -20,3 +20,24 @@ var swiper = new Swiper(".mySwiper", {
         }
     }
 });
+
+
+var swiper = new Swiper(".mySwiper-testimonial", {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    freeMode: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        DynamicBullets: true,
+
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        780: {
+            slidesPerView: 2,
+        },
+    }
+});

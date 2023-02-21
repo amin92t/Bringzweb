@@ -802,3 +802,121 @@ Price
     font-size: 1.2rem;
     color: var(--gray-color);
 }
+
+
+/* ===================== 
+testimonial
+====================== */
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+.testimonial__top-title {
+    font-family: var(--poppins-SemiBold);
+    font-size: 1.8rem;
+    display: block;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+    position: relative;
+}
+
+.testimonial__top-title::after {
+    content: " ";
+    width: 10rem;
+    height: 0.1rem;
+    background-color: var(--gray-color);
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonial__title {
+    font-family: var(--poppins-bold);
+    font-size: 2.8rem;
+    max-width: 50rem;
+    margin: 3rem auto 5rem auto;
+    line-height: 1.4;
+}
+
+.testimonial__caption {
+    font-family: var(--poppins-Regular);
+    color: var(--gray-color);
+    font-size: 1.4rem;
+    line-height: 1.6;
+    max-width: 78rem;
+    margin: 0 auto 5rem auto;
+}
+
+/* Slider */
+
+.testimonial__slider-content {
+    margin-bottom: 5rem;
+}
+
+.testimonial__slider-card {
+    border-radius: 1rem;
+    border: 1px solid var(--gray-color);
+    padding: 3rem;
+}
+
+.testimonial__slider-card--active {
+    background-color: var(--primary-color);
+}
+
+.testimonial__slider-card-caption {
+    margin-bottom: 5rem;
+    color: var(--gray-color);
+    max-width: 48rem;
+}
+
+.testimonial__slider-card-user {
+    max-width: 45rem;
+}
+
+.testimonial__slider-card-username span {
+    color: var(--primary-color);
+}
+
+.testimonial__slider-card--active .testimonial__slider-card-caption-text,
+.testimonial__slider-card--active .testimonial__slider-card-username,
+.testimonial__slider-card--active .testimonial__slider-card-username span {
+    color: var(--white-color);
+}
+
+
+.testimonial__slider-card-user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial__slider-card-username>p {
+    font-family: var(--poppins-bold);
+    font-size: 2.4rem;
+}
+
+.testimonial__slider-card-username>span {
+    display: block;
+    font-family: var(--poppins-Regular);
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.testimonial__slider-card-image {
+    background-color: var(--gray-color);
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+.testimonial__slider-card-image-icon {
+    position: absolute;
+    bottom: -2rem;
+    right: -2.4rem;
+}
