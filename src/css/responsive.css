@@ -20,6 +20,10 @@
          font-size: 1.6rem;
          max-width: 50rem;
      }
+
+     .newsletters {
+         justify-content: center;
+     }
  }
 
  /* Medium devices (landscape tablets, 768px and up) */
@@ -28,6 +32,13 @@
          width: 72rem;
      }
 
+     .newsletters {
+         justify-content: space-between;
+     }
+
+     .newsletters__title {
+         margin-bottom: 0;
+     }
  }
 
  /* Large devices (laptops/desktops, 992px and up) */

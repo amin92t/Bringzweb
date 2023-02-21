@@ -36,7 +36,7 @@ var swiper = new Swiper(".mySwiper-testimonial", {
         0: {
             slidesPerView: 1,
         },
-        780: {
+        768: {
             slidesPerView: 2,
         },
     }
