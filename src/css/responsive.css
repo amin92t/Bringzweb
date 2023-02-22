@@ -24,6 +24,18 @@
      .newsletters {
          justify-content: center;
      }
+
+
+     .footer__caption {
+         max-width: 60rem;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .footer__caption-text {
+         padding: 0 6rem;
+         line-height: 1.4;
+     }
  }
 
  /* Medium devices (landscape tablets, 768px and up) */
@@ -38,6 +50,14 @@
 
      .newsletters__title {
          margin-bottom: 0;
+     }
+
+     .footer__caption {
+         flex-basis: 100%;
+     }
+
+     .footer__logo {
+         align-self: center;
      }
  }
 
@@ -97,6 +117,50 @@
          align-items: flex-start;
      }
 
+     .footer__wrapper {
+         padding: 3rem 4rem;
+     }
+
+     .footer__caption {
+         max-width: 36rem;
+         flex-basis: 25%;
+         margin-top: -5rem;
+     }
+
+     .footer__logo {
+         align-self: flex-start;
+     }
+
+     .footer__caption-text {
+         padding: 0;
+         width: 36rem;
+         text-align: left;
+     }
+
+
+     .footer__menus {
+         flex-basis: 70%;
+         max-width: 65rem;
+         flex-wrap: nowrap;
+         align-items: flex-start;
+     }
+
+     .footer__menu {
+         align-items: self-start;
+         width: 40rem;
+         flex-basis: 33%;
+         margin-right: 4rem;
+     }
+
+     .footer__menu:last-child {
+         width: 20rem;
+         flex-basis: 20%;
+     }
+
+     .footer__menu-item {
+         align-self: flex-start;
+     }
+
 
  }
 
@@ -105,4 +169,10 @@
      .container {
          width: 114rem;
      }
+
+     .footer__wrapper {
+         justify-content: space-between;
+     }
+
+
  }
