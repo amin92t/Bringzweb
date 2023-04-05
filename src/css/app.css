@@ -50,7 +50,7 @@ Header
 
 .header {
     background: linear-gradient(rgba(69, 16, 138, 1), rgba(66, 12, 120, 1), rgba(64, 10, 110, 1), rgba(63, 8, 103, 1), rgba(61, 6, 95, 1), rgba(61, 6, 95, 1)), var(--primary-color);
-    height: 85vh;
+    height: 60rem;
 }
 
 /* ===================== 
@@ -967,7 +967,6 @@ newsletters
     font-family: var(--poppins-Regular);
     border-radius: var(--default-border-radius);
     height: 4rem;
-    width: 12rem;
     cursor: pointer;
     outline: none;
     border: none;
@@ -982,7 +981,8 @@ Footer
     background-color: var(--primary-color);
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
-    padding: 14rem 2rem;
+    padding: 8rem 2rem;
+    margin-top: 5rem;
 }
 
 .footer__wrapper {
